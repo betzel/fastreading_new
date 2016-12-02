@@ -3,6 +3,6 @@
 /images
 /js
 /node_modules
-htaccess
-mail.php
+.htaccess
 index.html
+!resources/index.html

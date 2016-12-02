@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Быстрочтение</title>
+
+    <link href="/css/app.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+</head>
+
+<body class="index">
+
+<header>
+    <div class="container blue">
+        <div class="row">
+            <div class="col-md-4 text-center padding_none text_upper">
+                <div class="col-md-3 padding_none">
+                    <img class="img img-responsive" src="/images/header/header_logo.png" alt="header_logo">
+                </div>
+                <div class="col-md-9 text-left text_bold parent">
+                    <div><p>Школа скорочтения и развития памяти</p></div>
+                </div>
+                <div class="col-md-12 padding_none">
+                    <p class="orange text_bold"><span class="text_lower">по методике: </span> Шамиля Ахмадуллина</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center center parent">
+                <div class="">
+                    <p class="text_upper">
+                        <span class="text_bold">Для детей</span> <span class="text_lower">6-8 <i>и</i> 9-12 лет</span> <span><i class="text_lower">и</i> <i class="text_bold">подростков</i></span></span> <span>13-16 лет</span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 padding_right text-right contacts parent">
+                <div class="">
+                    <p class="text_upper">Есть вопросы? <span class="text_bold">Звоните!</span></p>
+                    <p class="orange text_upper"><img class="icon" src="/images/header/phone.png"> <a href="tel:88432392291">8 (843) 239-22-91</a></p>
+                    <p class="orange text_upper"><img class="icon" src="/images/header/phone.png"> <a href="tel:88432392207">8 (843) 239-22-07</a></p>
+                    <p><img class="icon" src="/images/header/point.png"> г. Казань, Чистопольская, 20А</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="first">
+    <div class="container">
+        <div class="wrap_container">
+            <div class="row">
+                <div class="col-md-7 padding_none text-right">
+                    <h2 class="text_bold text_upper">Проблемы <i class="text_lower">с</i> <span class="orange">вниманием</span>, <span class="orange">памятью</span> <i class="text_lower">и</i> <span class="orange">чтением</span>?</h2>
+                </div>
+                <div class="col-md-offset-1 col-md-4 text-center">
+                    <h3 class="text_bold text_upper blue">Запишитесь<br>на собеседование</h3>
+                    <div class="wrap_form">
+                        <form action="#" id="contact_form" class="form" data-parsley-validate="true">
+                            <div class="form-group padding_left">
+                                <input type="text" class="form-control" data-parsley-minlength="[4]" data-parsley-required="true" id="contact_name" placeholder="Введите ваше имя..." name="name">
+                            </div>
+                            <div class="form-group padding_left">
+                            <input type="text" class="form-control" data-parsley-minlength="[7]" data-parsley-type="phone" data-parsley-required="true" placeholder="Введите ваш телефон..." id="contact_phone" name="phone">
+                            </div>
+                            <button type="submit" id="contact_submit" class="btn btn-default btn-block text_upper text_bold">Записаться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="second">
+    <div class="container text-center">
+        <div class="col-xs-6 first_grad"></div>
+        <div class="col-xs-6 last_grad"></div>
+        <div class="row">
+            <h2 class="text_bold text_upper blue">Какие проблемы ребенка</h2>
+            <h3 class="text_bold text_upper">решает курс скорочтения?</h3>
+            <div class="row wrap_cols">
+                <div class="col-md-4">
+                    <img class="img img-responsive margin_auto" src="/images/second/1-2.png" alt="1">
+                    <p>Ребенок рассеян, многое забывает, не может надолго концентрировать внимание.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img img-responsive margin_auto" src="/images/second/2-2.png" alt="2">
+                    <p>Ребенок заучивает текст, но не может выделить главное!</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img img-responsive margin_auto" src="/images/second/3.png" alt="3">
+                    <p>Ребенок тратит время на домашнее задание, т.к. не понимает условия заданий.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2">
+                    <img class="img img-responsive margin_auto" src="/images/second/4-2.png" alt="4">
+                    <p>Ребенок читает медленно или не любит читать.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img img-responsive margin_auto" src="/images/second/5-2.png" alt="5">
+                    <p>Ребенок не хочет учиться, потому что это тяжело и скучно!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="third">
+    <div class="container text-center">
+        <div class="row">
+            <h2 class="text_bold text_upper orange">Всего за 5 недель обучения</h2>
+            <h3 class="text_upper">ваш ребенок получает:</h3>
+            <div class="row wrap_cols text_bold">
+                <div class="col-md-4">
+                    <img class="img-responsive img margin_auto" src="/images/third/1.png" alt="1">
+                    <p>Любовь к учёбе - навсегда</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive img margin_auto" src="images/third/2.png" alt="2">
+                    <p>Умение быстро прочитать, усвоить и понять 7 страниц текста</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive img margin_auto" src="images/third/3.png" alt="3">
+                    <p>Улучшение внимания и памяти!</p>
+                </div>
+            </div>
+            <div class="row text_bold">
+                <div class="col-md-4">
+                    <img class="img-responsive img margin_auto" src="images/third/4.png" alt="4">
+                    <p>Чтение быстрее в 2-3 раза!</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive img margin_auto" src="images/third/5.png" alt="5">
+                    <p>Отсутствие страха перед учебным процессом!</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive img margin_auto" src="images/third/6.png" alt="6">
+                    <p>Умение структурировать информацию!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fourth">
+    <div class="container">
+        <h2 class="text_bold text_upper orange text-center">На занятиях дети получают огромный заряд позитива и энергии</h2>
+        <h4 class="text-center">Только 3% теории и 97% практики: упражнений и игр</h4>
+        <div class="row">
+            <div class="col-md-7 padding_none">
+                <div class="col-md-6 padding_left">
+                    <p><img src="/images/fourth/check.png" alt="check">Работа всей группой</p>
+                    <p><img src="/images/fourth/check.png" alt="check">Отсутствие агрессивного соперничества!</p>
+                    <p><img src="/images/fourth/check.png" alt="check">Каждый работает с тем темпом, с которым ему необходимо!</p>
+                    <p><img src="/images/fourth/check.png" alt="check">Игровая форма занятия и большое количество интересных упражнений.</p>
+                    <p><img src="/images/fourth/check.png" alt="check">Подробное объяснение техник!</p>
+                </div>
+                <div class="col-md-6 padding_right">
+                    <p><img src="/images/fourth/check.png" alt="check">Индивидуальный подход к каждому ребенку!</p>
+                    <p><img src="/images/fourth/check.png" alt="check">Насыщенная программа через общение, взаимодействие, совместную работу!</p>
+                    <p><img src="/images/fourth/check.png" alt="check">Каждый работает с тем темпом, с которым ему комфортно!</p>
+                    <p><img src="/images/fourth/check.png" alt="check">Нацеленость на повышение результатов и закрепление достигнутого!</p>
+                </div>
+            </div>
+            <div class="col-md-5 padding_right">
+                <a class="fancybox-media" href="https://www.youtube.com/watch?v=LFNJOHIkCoE?autoplay=1"><iframe width="100%" height="280" src="https://www.youtube.com/watch?v=LFNJOHIkCoE" frameborder="0" allowfullscreen></iframe></a>
+                <div class="col-md-offset-1 col-md-10 padding_none">
+                    <button type="submit" class="btn btn-default btn-block text_upper text_bold" data-toggle="modal" data-target="#Modal1">Записаться на собеседование</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fifth">
+    <div class="container">
+        <h2 class="text-center text_upper"><span class="text_bold">Почему с нами</span><br> у вашего ребенка <span class="text_bold">точно</span> все получиться?</h2>
+        <div class="row">
+            <div class="col-md-12 padding_none">
+                <div class="col-md-3 padding_left"><img class="img-responsive img margin_auto" src="/images/fifth/1.png" alt="1"></div>
+                <div class="col-md-9 padding-right">
+                    <h3 class="text_bold text_upper">Мы развиваем мышление (память, внимание и сообразительность)</h3>
+                    <p>Всего через 10 занятий (5 недель) вы заметите, как поменялся Ваш ребенок,
+                        как легко ему стало учиться любым предметам.
+                        Школьник приобретет бесценные навыки работы с информацией,
+                        которые будут полезны ему и через 5, и через 10 лет.</p>
+                </div>
+            </div>
+            <div class="col-md-12 padding_none">
+                <div class="col-md-3 padding_left"><img class="img-responsive img margin_auto" src="/images/fifth/2.png" alt=""></div>
+                <div class="col-md-9 padding-right">
+                    <h3 class="text_bold text_upper">Вера в себя и самостоятельность</h3>
+                    <p>Часто проблема ученика состоит в том, что он просто боится нового
+                        материала, толстого учебника или даже строгого учителя и
+                        недоброжелательных одноклассников.
+                        С нами дети избавляются от этих страхов раз и навсегда.</p>
+                </div>
+            </div>
+            <div class="col-md-12 padding_none">
+                <div class="col-md-3 padding_left"><img class="img-responsive img margin_auto" src="/images/fifth/3.png" alt="3"></div>
+                <div class="col-md-9 padding-right">
+                    <h3 class="text_bold text_upper">Ваш ребёнок полюбит учиться!</h3>
+                    <p>Наши занятия прививают любовь к учебе.
+                        Мы покажем ребенку, что учиться – это интересно, важно и главное,
+                        ПРИЯТНО. Научим его не бояться ошибок и превращать учебный
+                        процесс в увлекательное занятие.</p>
+                </div>
+            </div>
+            <div class="col-md-12 padding_none">
+                <div class="col-md-3 padding_left"><img class="img-responsive img margin_auto" src="/images/fifth/4.png" alt="4"></div>
+                <div class="col-md-9 padding-right">
+                    <h3 class="text_bold text_upper">Работа с родителями</h3>
+                    <p>Мы обязательно дадим Вам советы и рекомендации, как продолжить
+                        развитие ребенка после окончания курса.
+                        Регулярно делимся наблюдениями за ним, отвечаем
+                        на Ваши вопросы.</p>
+                </div>
+            </div>
+            <div class="col-md-12 padding_none">
+                <div class="col-md-3 padding_left"><img class="img-responsive img margin_auto" src="/images/fifth/4.png" alt="4"></div>
+                <div class="col-md-9 padding-right">
+                    <h3 class="text_bold text_upper">Мы эксперты в этой области!</h3>
+                    <p>Наши тренинги прошли более 1500 детей и подростков и 99% остались довольны результатами! Автор методик Шамиль Ахмадуллин создал более 10 бестсеелеров по детскому скорочтению, разивитию памяти, мотивации и эффективному обучению детей! О нашей снимают сюжеты на телевидении и пишут в газетах!
+                        Наши методики и методичиские пособия прошли десятки сертификаций, получили высокие оценки различных экспертных советов, выиграли большое количество конкурсов.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sixth">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 padding_none"><img class="img-responsive img" src="/images/sixth/author.png" alt="author"></div>
+            <div class="col-md-offset-1 col-md-7">
+                <h2 class="text_bold text_upper blue">Об авторе</h2>
+                <h3 class="text_bold text_upper orange">Шамиль Ахмадуллин</h3>
+                <div class="wrap_p text_bold">
+                    <p>Основатель сети школ скорочтения и развития памяти для детей TurboRead. Разработчик более 30 методик экспресс-обучения детей.</p>
+                </div>
+                <div class="wrap_p">
+                    <p>Среди которых: «Скорочтение», «Эффективная работа с информацией», «Тренировка памяти», «Скорочтение и память для детей» и другие.</p>
+                </div>
+                <div class="wrap_p">
+                    <p class="text_bold">Автор книг-бестселлеров</p>
+                    <p>Среди которых: «Скорочтение для детей. Как научить ребенка правильно читать и понимать прочитанное», «Обучение детей скорочтению», «Развитие памяти и внимания у детей» и других.</p>
+                </div>
+                <div class="wrap_p">
+                    <p class="text_bold">Награды:</p>
+                    <p>Пособия и методики становились неоднакратными  победителями  более десятка Всероссийских конкурсов. Среди которых: Победитель Всероссийского конкурса Лучшее детям-2015 "Методика обучения скорочтению", Лучшее пособие для дошкольных образовательных организаций "Букварь. Обучение чтению с нуля для дете 5-7 лет",  Золотой Медвежонок-Выбор родителей "Система обучения детей скорочтению".</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="seventh">
+    <div class="container">
+        <div class="col-xs-6 first_grad"></div>
+        <div class="col-xs-6 last_grad"></div>
+        <h2 class="text_bold text-center text_upper">Произведения автора</h2>
+        <div class="row">
+            <div id="Carousel1" class="carousel slide" data-ride="carousel">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active parent">
+                        <div class="col-md-2 col-md-offset-1">
+                            <a class="fancybox" rel="group1" href="/images/seventh/abc.png"><img class="img-responsive img margin_auto" src="/images/seventh/small_abc.png" alt="abc"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="fancybox" rel="group1" href="/images/seventh/fastreading_2.png"><img class="img-responsive img margin_auto" src="/images/seventh/small_fastreading_2.png" alt="fastreading_2"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="fancybox" rel="group1" href="/images/seventh/lohica.png"><img class="img-responsive img margin_auto" src="/images/seventh/small_lohica.png" alt="lohica"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="fancybox" rel="group1" href="/images/seventh/memory.png"><img class="img-responsive img margin_auto" src="/images/seventh/small_memory.png" alt="memory"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="fancybox" rel="group1" href="/images/seventh/motivation.png"><img class="img-responsive img margin_auto" src="/images/seventh/small_motivation.png" alt="motivation"></a>
+                        </div>
+                    </div>
+
+                    <div class="item parent">
+                        <div class="col-md-2 col-md-offset-1">
+                            <a class="fancybox" rel="group1"  href="/images/seventh/multiplication_table.png"><img class="img-responsive img margin_auto" src="/images/seventh/small_multiplication_table.png" alt="multiplication_table"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="fancybox" rel="group1"  href="/images/seventh/notes_8-9.png"><img class="img-responsive img margin_auto" src="/images/seventh/small_notes_8-9.png" alt="notes"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="fancybox" rel="group1"  href="/images/seventh/texts.png"><img class="img-responsive img margin_auto" src="/images/seventh/small_texts.png" alt="text"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="fancybox" rel="group1"  href="/images/seventh/shamil_box_2.0.png"><img class="img-responsive img margin_auto" src="/images/seventh/small_shamil_box_2.0.png" alt="shamil"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="fancybox" rel="group1"  href="/images/seventh/texts.png"><img class="img-responsive img margin_auto" src="/images/seventh/small_texts.png" alt="text"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#Carousel1" role="button" data-slide="prev">
+                    <img src="/images/seventh/arr_right.png" alt="arr_left" aria-hidden="true">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#Carousel1" role="button" data-slide="next">
+                    <img src="/images/seventh/arr_right.png" alt="arr_right" aria-hidden="true">
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="eighth">
+    <div class="container">
+        <div class="col-xs-6 first_grad"></div>
+        <div class="col-xs-6 last_grad"></div>
+        <h2 class="text_bold text-center text_upper">Сертификаты и грамоты</h2>
+        <div class="row">
+            <div id="Carousel2" class="carousel slide" data-ride="carousel">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active parent">
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/1.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small1.jpg" alt="1"></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/2.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small2.jpg" alt="2"></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/3.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small3.jpg" alt="3"></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/4.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small4.jpg" alt="4"></a>
+                        </div>
+                    </div>
+
+                    <div class="item parent">
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/5.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small5.jpg" alt="5"></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/6.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small6.jpg" alt="6"></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/7.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small7.jpg" alt="7"></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/8.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small8.jpg" alt="8"></a>
+                        </div>
+                    </div>
+
+                    <div class="item parent">
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/9.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small9.jpg" alt="9"></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/10.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small10.jpg" alt="10"></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/11.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small11.jpg" alt="11"></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/12.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small12.jpg" alt="12"></a>
+                        </div>
+                    </div>
+
+                    <div class="item parent">
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/13.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small13.jpg" alt="13"></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/14.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small14.jpg" alt="14"></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/15.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small15.jpg" alt="15"></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="fancybox" rel="group2" href="/images/eighth/15.jpg"><img class="img-responsive img margin_auto" src="/images/eighth/small15.jpg" alt="15"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#Carousel2" role="button" data-slide="prev">
+                    <img src="/images/seventh/arr_right.png" alt="arr_left" aria-hidden="true">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#Carousel2" role="button" data-slide="next">
+                    <img src="/images/seventh/arr_right.png" alt="arr_right" aria-hidden="true">
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ninth">
+    <div class="container">
+        <h2 class="text_bold text-center blue text_upper">Довольные родители</h2>
+        <div class="row wrap_video">
+            <div class="col-md-4 padding_right_75">
+                <div class="wrap_video_one">
+                    <a class="fancybox-media" href="https://www.youtube.com/watch?v=Nw9IYDViFP4?autoplay=1"><iframe width="100%" height="200" src="https://www.youtube.com/watch?v=Nw9IYDViFP4" frameborder="0" allowfullscreen></iframe></a>
+                </div>
+            </div>
+            <div class="col-md-4 padding_right_75 padding_left_75">
+                <div class="wrap_video_one">
+                    <a class="fancybox-media" href="https://www.youtube.com/watch?v=Yp7yU-MScks?autoplay=1"><iframe width="100%" height="200" src="https://www.youtube.com/watch?v=Yp7yU-MScks" frameborder="0" allowfullscreen></iframe></a>
+                </div>
+            </div>
+            <div class="col-md-4 padding_left_75">
+                <div class="wrap_video_one">
+                    <a class="fancybox-media" href="https://www.youtube.com/watch?v=R2hZvaNFkUM?autoplay=1"><iframe width="100%" height="200" src="https://www.youtube.com/watch?v=R2hZvaNFkUM" frameborder="0" allowfullscreen></iframe></a>
+                </div>
+            </div>
+        </div>
+        <div class="row wrap_video last">
+            <div class="col-md-4 padding_right_75">
+                <div class="wrap_video_one">
+                    <a class="fancybox-media" href="https://www.youtube.com/watch?v=eIqK5_mc_eY?autoplay=1"><iframe width="100%" height="200" src="https://www.youtube.com/watch?v=eIqK5_mc_eY" frameborder="0" allowfullscreen></iframe></a>
+                </div>
+            </div>
+            <div class="col-md-4 padding_right_75 padding_left_75">
+                <div class="wrap_video_one">
+                    <a class="fancybox-media" href="https://www.youtube.com/watch?v=fQn5PCMebM4?autoplay=1"><iframe width="100%" height="200" src="https://www.youtube.com/watch?v=fQn5PCMebM4" frameborder="0" allowfullscreen></iframe></a>
+                </div>
+            </div>
+            <div class="col-md-4 padding_left_75">
+                <div class="wrap_video_one">
+                    <a class="fancybox-media" href="https://www.youtube.com/watch?v=7Bd-lhCJUeI?autoplay=1"><iframe width="100%" height="200" src="https://www.youtube.com/watch?v=7Bd-lhCJUeI" frameborder="0" allowfullscreen></iframe></a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text_bold text-center orange">Отзывы, которые мы не смогли записать на видео:</h2>
+        <div class="row">
+            <div id="Carousel3" class="carousel slide" data-ride="carousel">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img class="img-responsive img margin_auto img-circle" src="/images/ninth/nikita_t.jpg" alt="nikita_t">
+                        </div>
+                        <div class="col-md-7 col-md-offset-1">
+                            <h3 class="blue text_bold">Отзывы по курсу "Скорочтение для детей"</h3>
+                            <div class="wrap_testim">
+                                <p class="text_ital">Я учусь в 11 классе и сдаю обществознание и историю на ЕГЭ , для успешной сдачи этих предметов необходимо запоминать очень много информации, а также изучать большое количество литературы и я не знал ,как мне улучшить свою память и увеличить скорость своего чтения в считанные сроки. Тогда моя мама рассказала мне о школе памяти и скорочтения Шамиля Ахмадуллина. Я решил попробовать, поскольку возможность улучшить навыки, которые помогут мне поступить в хороший вуз показалась мне очень привлекательной. Мне очень повезло с моим педагогом Мадиной, которая оказалась не только качественным преподавателем, но и прекрасным человеком. В течение курса с каждым занятием я чувствовал все больший и больший прогресс и сразу же начал применять свои знания на практике и мои результаты оказались выше всех ожиданий. Я очень рад, что прошёл этот курс и советую его всем, потому что я уверен ,что эти занятия могут сделать вас лучше и помочь достичь желаемых результатов !</p>
+                            </div>
+                            <p class="last text_bold">Никита T.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img class="img-responsive img margin_auto img-circle" src="/images/ninth/vlasta.jpg" alt="vlasta">
+                        </div>
+                        <div class="col-md-7 col-md-offset-1">
+                            <h3 class="blue text_bold">Отзывы по курсу "Скорочтение для детей"</h3>
+                            <div class="wrap_testim">
+                                <p class="text_ital">На самом деле курс скорочтения помог мне и с учебой и так же в обычном чтении книг. С помощью метода скорочтения я начала читать в 2 раза быстрее и обрабатывать школьные параграфы на 100 % . Курс скорочтения помог мне быстрее делать уроки и у меня появилось больше времени на отдых.</p>
+                            </div>
+                            <p class="last text_bold">Власта</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img class="img-responsive img margin_auto img-circle img-circle" src="/images/ninth/nikita_d.jpg" alt="nikita_d">
+                        </div>
+                        <div class="col-md-7 col-md-offset-1">
+                            <h3 class="blue text_bold">Отзывы по курсу "Скорочтение для детей"</h3>
+                            <div class="wrap_testim">
+                                <p class="text_ital">Курс понравился, вы как преподаватель курса, грамотно и доступно все преподносили!</p>
+                                <p class="text_ital">Пытаюсь потихоньку приучать Никиту к упражнениям для развития правого полушария, ему тоже очень нравится. Также постоянно прошу Никиту применять метод запоминания цифр посредством ассоциаций и придумывания текстов. Одним словом, еще заниматься и заниматься, учиться и практиковаться. Очень Вам благодарен и огромное Вам спасибо! Надеюсь на дальнейшее сотрудничество.</p>
+                            </div>
+                            <p class="last text_bold">Папа Никиты Д.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img class="img-responsive img margin_auto img-circle" src="/images/ninth/nikita_d.jpg" alt="nikita_d">
+                        </div>
+                        <div class="col-md-7 col-md-offset-1">
+                            <h3 class="blue text_bold">Отзывы по курсу "Скорочтение для детей"</h3>
+                            <div class="wrap_testim">
+                                <p class="text_ital">Я посещал школу скорочтения в январе 2016 года. Мне очень понравилась атмосфера в школе и мой педагог- Анжела. Я многому научился и достиг больших результатов. На занятиях было интересно и весело, а главное-познавательно! Благодаря простым и интересным упражнениям я научился структурировать информацию. Занятия в группе позволили мне сравнивать свои результаты с другими учениками и делать для себя выводы. Мои результаты в школе значительно улучшились, я подтянулся в четверти и стал намного больше успевать. Спасибо Вам за интересный и познавательный курс.</p>
+                            </div>
+                            <p class="last text_bold">Никиты Н.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img class="img-responsive img margin_auto img-circle" src="/images/ninth/nikita_n.jpg" alt="nikita_n">
+                        </div>
+                        <div class="col-md-7 col-md-offset-1">
+                            <h3 class="blue text_bold">Отзывы по курсу "Скорочтение для детей"</h3>
+                            <div class="wrap_testim">
+                                <p class="text_ital">Я посещал школу скорочтения в январе 2016 года. Мне очень понравилась атмосфера в школе и мой педагог- Анжела. Я многому научился и достиг больших результатов. На занятиях было интересно и весело, а главное-познавательно! Благодаря простым и интересным упражнениям я научился структурировать информацию. Занятия в группе позволили мне сравнивать свои результаты с другими учениками и делать для себя выводы. Мои результаты в школе значительно улучшились, я подтянулся в четверти и стал намного больше успевать. Спасибо Вам за интересный и познавательный курс.</p>
+                            </div>
+                            <p class="last text_bold">Никиты Н.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img class="img-responsive img margin_auto img-circle" src="/images/ninth/nikita_n_mama.jpg" alt="nikita_n_mama">
+                        </div>
+                        <div class="col-md-7 col-md-offset-1">
+                            <h3 class="blue text_bold">Отзывы по курсу "Скорочтение для детей"</h3>
+                            <div class="wrap_testim">
+                                <p class="text_ital">Ребенку понравился курс «Скорочтения» . Ходим продолжить обучение, записаться на курс памяти, но пока времени не хватает, поэтому планируем позже. Никите нравилось посещать занятия, в этой четверти подтянул успеваемость. </p>
+                            </div>
+                            <p class="last text_bold">Мама Никиты Н.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img class="img-responsive img margin_auto img-circle" src="/images/ninth/valya_mama.jpg" alt="valya_mama">
+                        </div>
+                        <div class="col-md-7 col-md-offset-1">
+                            <h3 class="blue text_bold">Отзывы по курсу "Скорочтение для детей"</h3>
+                            <div class="wrap_testim">
+                                <p class="text_ital">Очень довольна курсом, который прошла дочь, так как он дал много полезных жизненных навыков; чтение присутствует во всех сферах нашей жизни - учёбе, работе, быту, поэтому умение быстро анализировать информацию безоговорочно важно.</p>
+                                <p class="text_ital">Большое спасибо за прекрасный курс!</p>
+                            </div>
+                            <p class="last text_bold">Мама Вали В.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img class="img-responsive img margin_auto img-circle" src="/images/ninth/valya.jpg" alt="valya">
+                        </div>
+                        <div class="col-md-7 col-md-offset-1">
+                            <h3 class="blue text_bold">Отзывы по курсу "Скорочтение для детей"</h3>
+                            <div class="wrap_testim">
+                                <p class="text_ital">Мне очень понравился этот курс – он дал мне много полезных навыков, которые существенно облегчают жизнь. Например, после прохождения курса мне стало проще читать большой объём заданной в школе литературы, конспектов перед экзаменами, и при этом я стала лучше запоминать суть. Также теперь я могу читать больше книг для себя за то же время!  Для меня это очень важно ;)</p>
+                            </div>
+                            <p class="last text_bold">Вали В.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#Carousel3" role="button" data-slide="prev">
+                    <img src="/images/ninth/arr_right.png" alt="arr_left" aria-hidden="true">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#Carousel3" role="button" data-slide="next">
+                    <img src="/images/ninth/arr_right.png" alt="arr_right" aria-hidden="true">
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tenth">
+    <div class="container">
+        <h2 class="text_bold text-center orange last"><span class="text_upper">СМИ:</span> о Школе скорочтения Шамиля Ахмадуллина</h2>
+        <div class="row wrap_video">
+            <div class="col-md-4 padding_right_75">
+                <div class="wrap_video_one">
+                    <a class="fancybox-media" href="https://www.youtube.com/watch?v=4Yla_gwxebg?autoplay=1">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/watch?v=4Yla_gwxebg" frameborder="0" allowfullscreen></iframe>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 padding_right_75 padding_left_75">
+                <div class="wrap_video_one">
+                    <a class="fancybox-media" href="https://www.youtube.com/watch?v=6gQg4id_ZZQ&t=137s?autoplay=1">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/watch?v=6gQg4id_ZZQ&t=137s" frameborder="0" allowfullscreen></iframe>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 padding_left_75">
+                <div class="wrap_video_one">
+                    <a class="fancybox-media" href="https://www.youtube.com/watch?v=2OTTT0jfMNQ?autoplay=1">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/watch?v=2OTTT0jfMNQ" frameborder="0" allowfullscreen></iframe>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tenth-second">
+    <div class="container">
+        <h2 class="yellow text_bold text_upper text-center">Результаты учеников</h2>
+        <div class="row">
+            <div id="Carousel4" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active parent">
+                        <div class="col-md-4 col-md-offset-1 padding_left">
+                            <a class="fancybox" href="/images/tenth-second/1.jpg"><img class="img-responsive img margin_auto" src="/images/tenth-second/small1.jpg" alt="1"></a>
+                        </div>
+                        <div class="col-md-6 padding_none text_bold">
+                            <div class="col-md-7 padding_left padding_right_75">
+                                <table class="table table-inverse">
+                                    <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th colspan="2">Скорость чтения</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="background_orange color_table">
+                                        <td>Имя</td>
+                                        <td>До</td>
+                                        <td>После</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Арсен</td>
+                                        <td>175 зн/мин</td>
+                                        <td>334 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Клим</td>
+                                        <td>133 зн/мин</td>
+                                        <td>379 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Дарья</td>
+                                        <td>132 зн/мин</td>
+                                        <td>334 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Дарья</td>
+                                        <td>159 зн/мин</td>
+                                        <td>334 зн/мин</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-md-5 padding_right padding_left_75">
+                                <table class="table table-inverse">
+                                    <thead>
+                                    <tr>
+                                        <th colspan="2">Понимание прочитанного</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="background_orange color_table">
+                                        <td>До</td>
+                                        <td>После</td>
+                                    </tr>
+                                    <tr>
+                                        <td>80%</td>
+                                        <td>90%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>100%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>90%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>90%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item parent">
+                        <div class="col-md-4 col-md-offset-1 padding_left">
+                            <a class="fancybox" rel="group3" href="/images/tenth-second/2.jpg"><img class="img-responsive img margin_auto" src="/images/tenth-second/small2.jpg" alt="2"></a>
+                        </div>
+                        <div class="col-md-6 padding_none text_bold">
+                            <div class="col-md-7 padding_left padding_right_75">
+                                <table class="table table-inverse">
+                                    <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th colspan="2">Скорость чтения</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="background_orange color_table">
+                                        <td>Имя</td>
+                                        <td>До</td>
+                                        <td>После</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Иван</td>
+                                        <td>93 зн/мин</td>
+                                        <td>147 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Камиля</td>
+                                        <td>38 зн/мин</td>
+                                        <td>74 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Валерия</td>
+                                        <td>43 зн/мин</td>
+                                        <td>86 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Кирилл</td>
+                                        <td>35 зн/мин</td>
+                                        <td>74 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Диана</td>
+                                        <td>72 зн/мин</td>
+                                        <td>220 зн/мин</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-md-5 padding_right padding_left_75">
+                                <table class="table table-inverse">
+                                    <thead>
+                                    <tr>
+                                        <th colspan="2">Понимание прочитанного</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="background_orange color_table">
+                                        <td>До</td>
+                                        <td>После</td>
+                                    </tr>
+                                    <tr>
+                                        <td>80%</td>
+                                        <td>90%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>90%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>90%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>90%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>95%</td>
+                                        <td>95%</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item parent">
+                        <div class="col-md-4 col-md-offset-1 padding_left">
+                            <a class="fancybox" rel="group3" href="/images/tenth-second/3.jpg"><img class="img-responsive img margin_auto" src="/images/tenth-second/small3.jpg" alt="3"></a>
+                        </div>
+                        <div class="col-md-6 padding_none text_bold">
+                            <div class="col-md-7 padding_left padding_right_75">
+                                <table class="table table-inverse">
+                                    <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th colspan="2">Скорость чтения</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="background_orange color_table">
+                                        <td>Имя</td>
+                                        <td>До</td>
+                                        <td>После</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Амина</td>
+                                        <td>110 зн/мин</td>
+                                        <td>187 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Артур</td>
+                                        <td>63 зн/мин</td>
+                                        <td>134 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Зарина</td>
+                                        <td>63 зн/мин</td>
+                                        <td>81 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Тимофей</td>
+                                        <td>138 зн/мин</td>
+                                        <td>185 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Анастасия</td>
+                                        <td>84 зн/мин</td>
+                                        <td>171 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Дарина</td>
+                                        <td>93 зн/мин</td>
+                                        <td>187 зн/мин</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-md-5 padding_right padding_left_75">
+                                <table class="table table-inverse">
+                                    <thead>
+                                    <tr>
+                                        <th colspan="2">Понимание прочитанного</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="background_orange color_table">
+                                        <td>До</td>
+                                        <td>После</td>
+                                    </tr>
+                                    <tr>
+                                        <td>60%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>50%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>80%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>70%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>60%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>50%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item parent">
+                        <div class="col-md-4 col-md-offset-1 padding_left">
+                            <a class="fancybox" rel="group3" href="/images/tenth-second/4.jpg"><img class="img-responsive img margin_auto" src="/images/tenth-second/small4.jpg" alt="4"></a>
+                        </div>
+                        <div class="col-md-6 padding_none text_bold">
+                            <div class="col-md-7 padding_left padding_right_75">
+                                <table class="table table-inverse">
+                                    <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th colspan="2">Скорость чтения</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="background_orange color_table">
+                                        <td>Имя</td>
+                                        <td>До</td>
+                                        <td>После</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Тимур</td>
+                                        <td>58 зн/мин</td>
+                                        <td>89 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Егор</td>
+                                        <td>73 зн/мин</td>
+                                        <td>135 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Руфат</td>
+                                        <td>54 зн/мин</td>
+                                        <td>182 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ксения</td>
+                                        <td>49 зн/мин</td>
+                                        <td>87 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Тимур</td>
+                                        <td>85 зн/мин</td>
+                                        <td>174 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Диана</td>
+                                        <td>195 зн/мин</td>
+                                        <td>311 зн/мин</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-md-5 padding_right padding_left_75">
+                                <table class="table table-inverse">
+                                    <thead>
+                                    <tr>
+                                        <th colspan="2">Понимание прочитанного</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="background_orange color_table">
+                                        <td>До</td>
+                                        <td>После</td>
+                                    </tr>
+                                    <tr>
+                                        <td>30%</td>
+                                        <td>90%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>60%</td>
+                                        <td>90%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>30%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>40%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>70%</td>
+                                        <td>90%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>50%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item parent">
+                        <div class="col-md-4 col-md-offset-1 padding_left">
+                            <a class="fancybox" rel="group3" href="/images/tenth-second/5.jpg"><img class="img-responsive img margin_auto" src="/images/tenth-second/small5.jpg" alt="5"></a>
+                        </div>
+                        <div class="col-md-6 padding_none text_bold">
+                            <div class="col-md-7 padding_left padding_right_75">
+                                <table class="table table-inverse">
+                                    <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th colspan="2">Скорость чтения</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="background_orange color_table">
+                                        <td>Имя</td>
+                                        <td>До</td>
+                                        <td>После</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Глеб</td>
+                                        <td>200 зн/мин</td>
+                                        <td>382 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Карим</td>
+                                        <td>156 зн/мин</td>
+                                        <td>287 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Даниил</td>
+                                        <td>100 зн/мин</td>
+                                        <td>131 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Диана</td>
+                                        <td>106 зн/мин</td>
+                                        <td>168 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Камиля</td>
+                                        <td>95 зн/мин</td>
+                                        <td>159 зн/мин</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Диана</td>
+                                        <td>195 зн/мин</td>
+                                        <td>311 зн/мин</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-md-5 padding_right padding_left_75">
+                                <table class="table table-inverse">
+                                    <thead>
+                                    <tr>
+                                        <th colspan="2">Понимание прочитанного</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="background_orange color_table">
+                                        <td>До</td>
+                                        <td>После</td>
+                                    </tr>
+                                    <tr>
+                                        <td>83%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>83%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>50%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>100%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>50%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#Carousel4" role="button" data-slide="prev">
+                    <img src="/images/ninth/arr_right.png" alt="arr_left" aria-hidden="true">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#Carousel4" role="button" data-slide="next">
+                    <img src="/images/ninth/arr_right.png" alt="arr_right" aria-hidden="true">
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="eleventh">
+    <div class="container">
+        <h2 class="text_bold text_upper blue text-center">Вопросы, которые нам часто задают</h2>
+        <div class="row">
+            <div class="col-md-11 col-md-offset-1 padding_left parent_qua">
+                <h3 class="orange text_bold text_upper">Боюсь отправлять ребенка на скорочтение в 6-7 лет, не повредит ли ему это? Не пропадет ли понимание?</h3>
+                <p class="text_bold dotted">Нет, у нас при разработке методики тоже возникал подобный вопрос, экспериментальным путем, на тестовых группах мы выяснили, что главное условия возможности заниматься ребенка на курсе скорочтения, это умение читать словами.</p>
+                <p>Если ребенок умеет читать словами, то после курса понимание только повысится.</p>
+                <p>Кроме того увеличение скорости чтения ребенка это только один из положительных эффектов курса,  большинство упражнений развивают внимательность,  расширяют поле зрения. Поэтому многие родители замечают, что после курса, ребенок может дольше концентрироваться на одной задаче,  становится более внимательным и начинает думать быстрее.</p>
+            </div>
+            <div class="col-md-11 col-md-offset-1 padding_left parent_qua">
+                <h3 class="orange text_bold text_upper">Как проходят занятия?</h3>
+                <p class="text_bold dotted">Одно занятие длится 70 минут. В каждое входит 12 блоков развития, и происходит постоянное переключение между ними.</p>
+                <p>Это далеко не скучные уроки за партой и бесконечные конспекты, а исключительно игровая форма, которая безумно нравится детям.</p>
+                <p>Это насыщенные программы обучения, через общение, взаимодействие, совместную работу, мозговой штурм.</p>
+                <p>Здесь не будут ругать за неправильно построенные предложения.</p>
+            </div>
+            <div class="col-md-11 col-md-offset-1 padding_left parent_qua">
+                <h3 class="orange text_bold text_upper">Будут ли домашние задания?</h3>
+                <p class="text_bold dotted">Домашние задания будут. Но они будут занимать не более 15 минут Вашего времени в день.</p>
+            </div>
+            <div class="col-md-11 col-md-offset-1 padding_left parent_qua">
+                <h3 class="orange text_bold text_upper">"А что, на самом деле мой ребенок будет быстро читать и думать?"</h3>
+                <p class="text_bold dotted">Да, будет! И мы даем гарантию этого! Если в течении первых четырех занятий вы вдруг решите, что они не эффективны, мы вернем все ваши деньги!</p>
+            </div>
+            <div class="col-md-11 col-md-offset-1 padding_left parent_qua">
+                <h3 class="orange text_bold text_upper">Что получит ребенок в итоге?</h3>
+                <p class="text_bold dotted">Скорочтение для детей это уникальный курс. Ребенок научится читать быстрее в среднем в 2.6 раз, улучшит свою память, внимание, начнет учится самостоятельно и легко.</p>
+            </div>
+            <div class="col-md-11 col-md-offset-1 padding_left parent_qua">
+                <h3 class="orange text_bold text_upper">Есть ли гарантия результата?</h3>
+                <p class="text_bold dotted">В течение первой недели обучения Вы можете забрать свои деньги и отказаться от занятий без объяснения причин.</p>
+                <p>Если Вы посчитаете, что у вашего ребенка нет никаких изменений и его способности к запоминанию не улучшились, то Вы можете отказаться от курса, написав в письменном виде причину отказа (в течение первых 4-х занятий).</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="twelfth">
+    <div class="container">
+        <h2 class="text-center text_bold text_upper yellow">Я уверен в эффективности своей методики и профессионализме своих педагогов.</h2>
+        <div class="row wrap_divs">
+            <div class="col-md-7 padding_none">
+                <h3 class="text_bold">Поэтому готов дать совершенно сумасшедшие гарантии</h3>
+                <div class="row margin_none">
+                    <div class="col-xs-1">
+                        <img class="img img-responsive margin_auto" src="/images/twelfth/check.png" alt="check">
+                    </div>
+                    <div class="col-xs-11">
+                        <p class="text_bold first_p">Я гарантирую, что в течение первой недели обучения Вы можете забрать свои деньги и отказаться от занятий - без объяснения причин.</p>
+                    </div>
+                </div>
+                <div class="row margin_none">
+                    <div class="col-xs-1">
+                        <img class="img img-responsive margin_auto" src="/images/twelfth/check.png" alt="check">
+                    </div>
+                    <div class="col-xs-11">
+                        <p>Если Вы посчитаете, что у Вашего ребенка нет никаких изменений и скорость его чтения не меняется, то Вы можете отказаться от курса, написав в письменном виде причину отказа <span class="text_bold">(в течение первых 4-х занятий)</span>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 padding_none col-md-offset-1">
+                <h3 class="text_bold text_upper blue text-center gray">Запишитесь<br>на собеседование</h3>
+                <p class="text-center">Подарите ребенку радость от обучения!</p>
+                <div class="wrap_form">
+                    <form action="#" id="contact_form2" class="form" data-parsley-validate="true">
+                        <div class="form-group padding_left">
+                            <input type="text" class="form-control" data-parsley-minlength="[4]" data-parsley-required="true" id="contact_name2" placeholder="Введите ваше имя..." name="name">
+                        </div>
+                        <div class="form-group padding_left">
+                            <input type="text" class="form-control" data-parsley-minlength="[7]" data-parsley-type="phone" data-parsley-required="true" placeholder="Введите ваш телефон..." id="contact_phone2" name="phone">
+                        </div>
+                        <button type="submit" id="contact_submit2" class="btn btn-default btn-block text_upper text_bold">Отправить</button>
+                    </form>
+                </div>
+
+                <p class="text-center gray">* Предоставим устную консультацию по телефону или запишем на собеседование тест</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center wrap_address">
+                <h3 class="text_bold text_upper">Мы находимся по адресу:</h3>
+                <p class="text_bold">г. Казань, ул. Чистопольская, 20А</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div id="map"></div>
+</section>
+
+<footer>
+    <div class="container blue">
+        <div class="row">
+            <div class="col-md-4 text-center padding_none text_upper">
+                <div class="col-md-3 padding_none">
+                    <img class="img img-responsive" src="/images/header/header_logo.png" alt="header_logo">
+                </div>
+                <div class="col-md-9 text-left text_bold parent">
+                    <div><p>Школа скорочтения и развития памяти</p></div>
+                </div>
+                <div class="col-md-12 padding_none">
+                    <p class="orange text_bold"><span class="text_lower">по методике: </span> Шамиля Ахмадуллина</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center center parent">
+                <div class="">
+                    <p class="text_upper">
+                        <span class="text_bold">Для детей</span> <span class="text_lower">6-8 <i>и</i> 9-12 лет</span> <span><i class="text_lower">и</i> <i class="text_bold">подростков</i></span></span> <span>13-16 лет</span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 padding_right text-right contacts parent">
+                <div class="">
+                    <p class="text_upper"><span class="text_bold">Позвоните нам прямо сейчас!</span></p>
+                    <p class="orange text_upper"><img class="icon" src="/images/header/phone.png"> <a href="tel:88432392291">8 (843) 239-22-91</a></p>
+                    <p class="orange text_upper"><img class="icon" src="/images/header/phone.png"> <a href="tel:88432392207">8 (843) 239-22-07</a></p>
+                    <p class="point" data-toggle="modal" data-target="#Modal2">Политика конфиденциальности</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h2 class="modal-title text_bold text-center text_upper blue" id="ModalLabel1">Записаться на собеседование!</h2>
+            <div class="modal-body">
+                <div class="wrap_form">
+                    <form action="#" id="contact_form3" class="form" data-parsley-validate="true">
+                        <div class="form-group padding_left">
+                            <input type="text" class="form-control" data-parsley-minlength="[4]" data-parsley-required="true" id="contact_name3" placeholder="Введите ваше имя..." name="name">
+                        </div>
+                        <div class="form-group padding_left">
+                            <input type="text" class="form-control" data-parsley-minlength="[7]" data-parsley-type="phone" data-parsley-required="true" placeholder="Введите ваш телефон..." id="contact_phone3" name="phone">
+                        </div>
+                        <button type="submit" id="contact_submit3" class="btn btn-default btn-block text_upper text_bold">Записаться</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            <div class="modal-body">
+                <h3 class="text-center">Политика конфиденциальности</h3>
+
+                <p>Ваша конфиденциальность очень важна для нас. Мы хотим, чтобы Ваша работа в Интернет по возможности
+                    была максимально приятной и полезной, и Вы совершенно спокойно использовали широчайший спектр
+                    информации, инструментов и возможностей, которые предлагает Интернет.
+                    Личная информация Членов, собранная при регистрации (или в любое другое время) преимущественно
+                    используется для подготовки Продуктов или Услуг в соответствии с Вашими потребностями. Ваша
+                    информация не будет передана или продана третьим сторонам. Однако мы можем частично раскрывать
+                    личную информацию в особых случаях, описанных в «Согласии с рассылкой»</p>
+                <h3 class="text-center">Какие данные собираются на сайте</h3>
+
+                <p>При добровольной регистрации на получение рассылки Вы отправляете свое Имя и E-mail через форму
+                    регистрации.</p>
+                <h3 class="text-center">С какой целью собираются эти данные</h3>
+
+                <p>Имя используется для обращения лично к вам, а ваш e-mail для отправки вам писем рассылок, новостей
+                    тренинга, полезных материалов, коммерческих предложений. Ваши имя и e-mail не передаются третьим
+                    лицам, ни при каких условиях кроме случаев, связанных с исполнением требований законодательства.
+                    Ваше имя и e-mail на защищенных серверах сервиса getresponse.com и используются в соответствии с его
+                    политикой конфиденциальности.</p>
+
+                <p>Вы можете отказаться от получения писем рассылки и удалить из базы данных свои контактные данные в
+                    любой момент, кликнув на ссылку для отписки, присутствующую в каждом письме.</p>
+                <h3 class="text-center">Как эти данные используются</h3>
+
+                <p>На сайте kazanhobby.ru/ используются куки (Cookies) и данные о посетителях сервиса
+                    Яндекс.Метрика.</p>
+
+                <p>При помощи этих данных собирается информация о действиях посетителей на сайте с целью улучшения его
+                    содержания, улучшения функциональных возможностей сайта и, как следствие, создания качественного
+                    контента и сервисов для посетителей.
+                    Вы можете в любой момент изменить настройки своего браузера так, чтобы браузер блокировал все файлы
+                    cookie или оповещал об отправке этих файлов. Учтите при этом, что некоторые функции и сервисы не
+                    смогут работать должным образом</p>
+                <h3 class="text-center">Как эти данные защищаются</h3>
+
+                <p>Для защиты Вашей личной информации мы используем разнообразные административные, управленческие и
+                    технические меры безопасности. Наша Компания придерживается различных международных стандартов
+                    контроля, направленных на операции с личной информацией, которые включают определенные меры контроля
+                    по защите информации, собранной в Интернет.
+                    Наших сотрудников обучают понимать и выполнять эти меры контроля, они ознакомлены с нашим
+                    Уведомлением о конфиденциальности, нормами и инструкциями.</p>
+
+                <p>Тем не менее, несмотря на то, что мы стремимся обезопасить Вашу личную информацию, Вы тоже должны
+                    принимать меры, чтобы защитить ее.
+                    Мы настоятельно рекомендуем Вам принимать все возможные меры предосторожности во время пребывания в
+                    Интернете. Организованные нами услуги и веб-сайты предусматривают меры по защите от утечки,
+                    несанкционированного использования и изменения информации, которую мы контролируем. Несмотря на то,
+                    что мы делаем все возможное, чтобы обеспечить целостность и безопасность своей сети и систем, мы не
+                    можем гарантировать, что наши меры безопасности предотвратят незаконный доступ к этой информации
+                    хакеров сторонних организаций.</p>
+
+                <p>В случае изменения данной политики конфиденциальности вы сможете прочитать об этих изменениях на этой
+                    странице или, в особых случаях, получить уведомление на свой e-mail.</p>
+
+                <p>Для связи с администратором сайта по любым вопросам вы можете написать письмо на e-mail:
+                    info@kazan-raduga.ru</p>
+            </div>
+            <!-- modal-body -->
+        </div>
+        <!-- modal-content -->
+    </div>
+    <!-- modal-dialog -->
+</div>
+
+<div class="scroll-top-wrapper ">
+  <span class="scroll-top-inner">
+    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+  </span>
+</div>
+
+<script src="/js/app.js"></script>
+
+</body>
+
+</html>
