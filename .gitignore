@@ -3,6 +3,6 @@
 /images
 /js
 /node_modules
-/idea
+/.idea
 index.html
 !resources/index.html

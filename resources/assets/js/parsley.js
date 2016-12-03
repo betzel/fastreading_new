@@ -1880,7 +1880,7 @@ window.ParsleyConfig.i18n.en = $.extend(window.ParsleyConfig.i18n.en || {}, {
     number:       "This value should be a valid number.",
     integer:      "This value should be a valid integer.",
     digits:       "This value should be digits.",
-    phone:        "Используйте цифры и символы: '+', '-', '(', ')' и минимум 7 символов",//"This value should be phone number.",
+    phone:        "Используйте цифры, символ '+' и минимум 7 символов",//"This value should be phone number.",
     alphanum:     "This value should be alphanumeric."
   },
   notblank:       "This value should not be blank.",
