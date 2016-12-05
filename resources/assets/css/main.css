@@ -81,7 +81,6 @@ table {
     font-weight: normal;
 }
 
-
 *{
     outline: 1px solid green;
 }
@@ -1529,13 +1528,13 @@ input.form-control.parsley-error:focus:-ms-input-placeholder            {color: 
     -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,.8) !important;
 }
 
-@media screen and (min-height: 992px){
-    #Carousel1.upper_991,
-    #Carousel2.upper_991{
+@media screen and (min-height: 991px){
+    #carousel1.carousel.slide,
+    #carousel2.carousel.slide{
         display: block;
     }
-    #Carousel5.lower_991,
-    #Carousel6.lower_991{
+    #carousel5.carousel.slide,
+    #carousel6.carousel.slide{
         display: none;
     }
 }
@@ -1584,6 +1583,14 @@ input.form-control.parsley-error:focus:-ms-input-placeholder            {color: 
     }
 }
 @media screen and (max-width: 991px) {
+    #carousel1.carousel.slide,
+    #carousel2.carousel.slide{
+        display: none;
+    }
+    #carousel5.carousel.slide,
+    #carousel6.carousel.slide{
+        display: block;
+    }
     header .col-md-9,
     footer .col-md-9{
         text-align: center !important;
@@ -1657,14 +1664,6 @@ input.form-control.parsley-error:focus:-ms-input-placeholder            {color: 
     .eighth h2,
     .seventh h2{
         padding-bottom: 40px;
-    }
-    #Carousel1.upper_991,
-    #Carousel2.upper_991{
-        display: none;
-    }
-    #Carousel5.lower_991,
-    #Carousel6.lower_991{
-        display: block;
     }
     .ninth .row.wrap_video{
         margin-bottom: 0px;
